@@ -15,7 +15,7 @@
 
 /* SEÇÃO CABEÇALHO */
 .cabecalho {
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: rgb(129, 129, 129);
 }
 
@@ -50,6 +50,8 @@
 .topo-link {
     padding: 30px 10px;
     background-color: rgb(129, 129, 129);
+     text-align: center;
+     gap: 10px;
 }
 
 .topo-link p {
@@ -61,7 +63,7 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin: 0 8px;
+    margin: 0 10px;
 }
 
 .topo-link a:hover {
@@ -108,7 +110,7 @@
     width: 80%;
     height: 80%;
     object-fit: cover;
-    border-radius: 30%;
+    border-radius: 10%;
 }
 
 .desc-imagem a {
@@ -154,16 +156,17 @@
     flex-wrap: wrap;
     gap: 40px;
     background-color: rgb(223, 223, 223);
+    padding: 10px 50px;
 }
 
 .card-produto {
-    width:400px;
+    width:380px;
     border-radius: 4px;
     box-shadow: 1px 1px 1px 1px white;
 }
 
 .container-imagem {
-    width: 400px;
+    width: 380px;
     height: 200px;
 }
 
@@ -171,6 +174,7 @@
     width: 100%;
     height: 100%;
     border-radius: 4px;
+    object-fit: cover;
 }
 
 .container-imagem img:hover {
@@ -221,6 +225,10 @@
     height: 150px;
 }
 
+.classe img:hover {
+    box-shadow: 0px 0px 2px 2px rgb(223, 223, 223);
+}
+
 .secao-contato {
     padding: 20px 20px 0px 20px;
     text-align:center;
@@ -241,7 +249,8 @@
     flex-wrap: wrap;
     max-width: 900;
     padding: 20px 0px 50px 0px;
-    background-color: rgb(223, 223, 223)
+    background-color: rgb(223, 223, 223);
+    align-items: center;
 }
 
 .classe-contato img {
@@ -252,8 +261,14 @@
     margin: 0px 10px;
 }
 
+.classe-contato p  {
+    background-color: rgb(223, 223, 223);
+    opacity: 30%;
+}
+
 .secao-contato p span {
     background-color: rgb(223, 223, 223);
     color: black;
+    font-weight: 500;
 }
 
