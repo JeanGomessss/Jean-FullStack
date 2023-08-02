@@ -67,7 +67,8 @@
 }
 
 .topo-link a:hover {
-    color: rgb(172, 172, 172);
+    opacity: 40%;
+    color: black;
 }
 /* SECAO APRESENTAÇÃO */
 .secao-sobre {
@@ -178,6 +179,7 @@
 }
 
 .container-imagem img:hover {
+    transition-duration: 0.3s;
     box-shadow: 0px 0px 2px 3px gray;
 }
 
@@ -223,10 +225,13 @@
 .classe img {
     width: 150px;
     height: 150px;
+    opacity: 10%;
 }
 
 .classe img:hover {
+    transition-duration: 0.5s;
     box-shadow: 0px 0px 2px 2px rgb(223, 223, 223);
+    opacity: 100%;
 }
 
 .secao-contato {
