@@ -69,6 +69,7 @@
 .topo-link a:hover {
     opacity: 40%;
     color: black;
+    border-bottom: 2px solid white;
 }
 /* SECAO APRESENTAÇÃO */
 .secao-sobre {
@@ -277,3 +278,8 @@
     font-weight: 500;
 }
 
+@media (max-width: 425px) {
+    .topo {flex-direction: column;}
+    .card-produto {width:100%;}
+    * {width: 100%;}
+}
