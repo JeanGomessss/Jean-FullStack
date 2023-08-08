@@ -281,6 +281,6 @@
 @media (max-width: 425px) {
     .topo {flex-direction: column;}
     .card-produto {width:100%;}
-    .card-produto img {width: 100%;}
+    .card-produto img {width: 190px;}
     * {width: 100%;}
 }
